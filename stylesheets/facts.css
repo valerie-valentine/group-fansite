@@ -1,0 +1,45 @@
+img {
+    width : 350px;
+    height: 500px;
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    margin-left: 40px;
+}
+
+div {
+    display : grid;
+    place-items: center;
+}
+
+html {
+    background-color: #ebebeb;
+}
+
+nav {
+    background-color: #af95ff
+}
+
+ul {
+    list-style-type: none;
+    margin: 20px;
+    padding: 20px;
+    font-size: larger;
+
+}
+
+@font-face {
+    font-family: 'PocketMonk';
+    src: url('/fonts/PocketMonk-15ze.ttf') format('truetype');
+    font-weight: normal;
+    font-size: normal;
+}
+
+h1 {
+    
+    font-family: 'PocketMonk', sans-serif
+}
+
+h2 {
+    font-family:'Courier New', Courier, monospace
+}
