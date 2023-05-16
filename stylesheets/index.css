@@ -1,0 +1,18 @@
+/* index.css */
+
+/* Specific styles for the homepage */
+header h1 {
+    font-size: 32px;
+    margin: 0;
+}
+
+section h2 {
+font-size: 24px;
+margin-bottom: 10px;
+}
+
+section p {
+margin-bottom: 20px;
+}
+
+/* Add your additional specific styles for the homepage here */
