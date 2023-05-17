@@ -1,15 +1,14 @@
-@font-face {
-    font-family: 'Other';
+/* @font-face {
+    font-family: 'OmegaRuby';
     src: url('/fonts/OmegaRuby-PlEB.ttf') format('truetype');
     font-weight: normal;
     size-adjust: 180%;
-    color: aliceblue;
-}
+} */
 
 
 img {
-    width : 500px;
-    height: 500px;
+    width : 550px;
+    height: 550px;    
 }
 
 div {
@@ -22,33 +21,80 @@ html {
     background-color: #ebebeb;
 }
 
-nav {
-    background-color: #baffc9;
-
-}
+/* nav {
+    background-color: #0392cf;
+} */
 
 ul {
     list-style-type: none;
     margin: 20px;
     padding: 20px;
     font-size: larger;
-
 }
 
 
 
-h1 {
+/* h1 {
     clip-path: ellipse();
+    border: #0392cf;
     text-align: center;
-    background-color: #bae1ff;
+    background-color: #7bc043;
     font-family: 'PocketMonk', sans-serif
-}
+} */
 
 .adiemon-titles {
     text-align: center;
     width: 20%;
     opacity: calc(85%);
     background-color: #ffb4cb;
-    font-family: 'Other', sans-serif
+    font-family: 'OmegaRuby', sans-serif
+}
+
+/* a:hover{
+    color: #ffffba;
+} */
+
+#visited {
+    color: #ffffba;
+    font-family: 'OmegaRuby';
+}
+
+a {
+    font-family: 'OmegaRuby';
+}
+
+.rectangles img {
+    clip-path: circle();
+    height: 300px;
+    width: 300px;
+    display :flex;
+    justify-content: space-around;
+}
+
+
+.adiemon-titles {
+    font-family: 'OmegaRuby';
+    display: flex;
+}
+
+#htmlite-image {
+    background-image: linear-gradient(90deg, #ffb3ba, #ffdfba, #ffffba, #baffc9, #bae1ff);
+    border: groove 20px #ee4035;
+    border-radius: 50%;
+}
+
+#pythonion-image {
+    background-image: linear-gradient(90deg, #ffb3ba, #ffdfba, #ffffba, #baffc9, #bae1ff);
+    background-color: #ffffba;
+    border: groove 20px #fdf498;
+    border-radius: 50%;
+}
+
+#reactikitty-image {
+    background-image: linear-gradient(90deg, #ffb3ba, #ffdfba, #ffffba, #baffc9, #bae1ff);
+    background-color: #bae1ff;
+    border-radius: 50%;
+    border: groove 20px #0392cf
+
 }
 
