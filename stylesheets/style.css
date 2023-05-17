@@ -1,50 +1,140 @@
-/* style.css */
-
-/* Generic styles */
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
+@font-face {
+    font-family: 'AlphaSapphire';
+    src: url('/fonts/AlphaSapphire-dqmR.ttf') format('truetype');
 }
 
-header {
-background-color: #333;
-color: #fff;
-padding: 20px;
+@font-face {
+    font-family: 'KetchumItalic';
+    src: url('/fonts/KetchumItalic-aOOa.ttf') format('truetype');
 }
 
-nav ul {
-list-style-type: none;
-margin: 0;
-padding: 0;
+@font-face {
+    font-family: 'OmegaRuby';
+    src: url('/fonts/OmegaRuby-PlEB.ttf') format('truetype');
 }
 
-nav ul li {
-display: inline;
-margin-right: 10px;
-}
-
-nav ul li a {
-color: #fff;
-text-decoration: none;
-background-color: #af95ff;
-}
-
-main {
-padding: 20px;
-}
-
-footer {
-background-color: #333;
-color: #fff;
-padding: 10px;
-text-align: center;
-}
-
-/* Add your additional generic styles here */
 @font-face {
     font-family: 'PocketMonk';
     src: url('/fonts/PocketMonk-15ze.ttf') format('truetype');
-    font-weight: normal;
-    size-adjust: 200%;
+}
+
+@font-face {
+    font-family: 'PokemonHollow';
+    src: url('/fonts/Pokemon Hollow.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'PokemonSolid';
+    src: url('/fonts/Pokemon Solid.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'KetchumWeeV';
+    src: url('/fonts/Ketchum-WeeV.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'PokemonGb';
+    src: url('/fonts/PokemonGb-RAeo.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'PokemonHollowNormal';
+    src: url('/fonts/PokemonHollowNormal-pyPZ.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'PokemonUnownGb';
+    src: url('/fonts/PokemonUnownGb-YAWa.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Toasteggs';
+    src: url('/fonts/Toasteggs-YgY2.ttf') format('truetype');
+}
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #baffc9;
+    color: #fff;
+    padding: 5px;
+    text-align: center;
+}
+
+h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    clip-path: ellipse(50% 50%);
+    text-align: center;
+    background-color: #bae1ff;
+    font-family: 'PocketMonk', sans-serif;
+    padding: 60px;
+    width: fit-content;
+    max-width: 100%; 
+    font-size: 48px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #ebebeb;
+    font-family: 'PokemonSolid', sans-serif;
+}
+
+nav {
+    font-family: 'KetchumWeeV', sans-serif;
+    
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    color: #ffb3ba; 
+}
+
+nav li {
+    display: inline;
+    margin-right: 10px;
+    color: #ffb3ba; 
+}
+
+nav a {
+    color: #ffb3ba; 
+}
+
+nav h2 {
+    color: #ff0000; 
+}
+
+a:hover{
+    color: #ffdfba;
+}
+
+main {
+    padding: 25px;
+    font-family: 'PokemonGb', sans-serif;
+}
+
+h2 {
+    font-family: 'KetchumItalic', sans-serif;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 30px;
+    text-align: right;
+    font-family: 'OmegaRuby';
+}
+
+footer p {
+    margin-left: 30px;
+    margin-top: auto;
+}
+
+footer p:nth-child(2) {
+    font-size: 14px;
 }
