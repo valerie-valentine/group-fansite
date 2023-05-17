@@ -27,6 +27,7 @@ margin-right: 10px;
 nav ul li a {
 color: #fff;
 text-decoration: none;
+background-color: #af95ff;
 }
 
 main {
@@ -45,5 +46,5 @@ text-align: center;
     font-family: 'PocketMonk';
     src: url('/fonts/PocketMonk-15ze.ttf') format('truetype');
     font-weight: normal;
-    font-size: normal;
+    size-adjust: 200%;
 }

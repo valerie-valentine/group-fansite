@@ -1,15 +1,21 @@
+@font-face {
+    font-family: 'Other';
+    src: url('/fonts/OmegaRuby-PlEB.ttf') format('truetype');
+    font-weight: normal;
+    size-adjust: 180%;
+    color: aliceblue;
+}
+
+
 img {
-    width : 350px;
+    width : 500px;
     height: 500px;
-    margin-top: 10px;
-    margin-right: 20px;
-    margin-bottom: 30px;
-    margin-left: 40px;
 }
 
 div {
-    display : grid;
-    place-items: center;
+    display : flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 html {
@@ -17,7 +23,8 @@ html {
 }
 
 nav {
-    background-color: #af95ff
+    background-color: #baffc9;
+
 }
 
 ul {
@@ -28,14 +35,20 @@ ul {
 
 }
 
-@font-face {
-    font-family: 'PocketMonk';
-    src: url('/fonts/PocketMonk-15ze.ttf') format('truetype');
-    font-weight: normal;
-    font-size: normal;
-}
+
 
 h1 {
-    
+    clip-path: ellipse();
+    text-align: center;
+    background-color: #bae1ff;
     font-family: 'PocketMonk', sans-serif
 }
+
+.adiemon-titles {
+    text-align: center;
+    width: 20%;
+    opacity: calc(85%);
+    background-color: #ffb4cb;
+    font-family: 'Other', sans-serif
+}
+
