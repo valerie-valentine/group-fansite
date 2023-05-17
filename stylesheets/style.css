@@ -41,3 +41,9 @@ text-align: center;
 }
 
 /* Add your additional generic styles here */
+@font-face {
+    font-family: 'PocketMonk';
+    src: url('/fonts/PocketMonk-15ze.ttf') format('truetype');
+    font-weight: normal;
+    font-size: normal;
+}
