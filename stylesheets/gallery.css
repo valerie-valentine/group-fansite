@@ -66,7 +66,12 @@ a {
 
 .circles img:hover {
     scale: 1.2;
+    /* filter: hue-rotate(90deg) */
+    filter: hue-rotate(90deg);
+    
 }
+
+
 
 .grid-item {
     display: grid;
@@ -106,4 +111,5 @@ a {
 #blurb {
     padding-top: 100px;
     font-family: 'PokemonGb';
+
 }

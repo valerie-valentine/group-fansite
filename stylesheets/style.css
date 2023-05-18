@@ -56,7 +56,8 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #333;
+    /* background-color: #333; */
+    background-image: linear-gradient(black,#333,#333,black);
     color: #fff;
     padding: 5px;
     text-align: center;
@@ -77,6 +78,9 @@ h1 {
     width: fit-content;
     max-width: 100%; 
     font-size: 7vw;
+}
+h1:hover {
+    filter: hue-rotate(90deg);
 }
 
 body {
@@ -133,7 +137,8 @@ h2 {
 }
 
 footer {
-    background-color: #333;
+    background-image: linear-gradient(black,#333,#333,black);
+
     color: #fff;
     padding: 30px;
     text-align: right;
