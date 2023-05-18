@@ -64,6 +64,10 @@ a {
     width: 500px;
 }
 
+.circles img:hover {
+    scale: 1.2;
+}
+
 .grid-item {
     display: grid;
     justify-content: center;
@@ -96,6 +100,10 @@ a {
     background-color: #bae1ff;
     border-radius: 50%;
     border: groove 20px #0392cf
-
 }
 
+
+#blurb {
+    padding-top: 100px;
+    font-family: 'PokemonGb';
+}
