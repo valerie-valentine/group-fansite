@@ -56,7 +56,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #baffc9;
+    background-color: #333;
     color: #fff;
     padding: 5px;
     text-align: center;
@@ -67,8 +67,11 @@ h1 {
     align-items: center;
     justify-content: center;
     clip-path: ellipse(50% 50%);
+    border-radius: 50%;
+    border: double 10px #f37736;
     text-align: center;
-    background-color: #bae1ff;
+    background-image: linear-gradient(90deg, #ffb3ba, #ffdfba, #ffffba, #baffc9, #bae1ff);
+
     font-family: 'PocketMonk', sans-serif;
     padding: 60px;
     width: fit-content;
@@ -102,15 +105,15 @@ nav li {
 }
 
 nav a {
-    color: #ffb3ba; 
+    color: #7bc043; 
 }
 
 nav h2 {
-    color: #ff0000; 
+    color: white; 
 }
 
 a:hover{
-    color: #ffdfba;
+    color: #f37736;
 }
 
 main {
@@ -138,3 +141,11 @@ footer p {
 footer p:nth-child(2) {
     font-size: 14px;
 }
+
+/* .fancy-cut {
+    background-color: #fff;
+    mix-blend-mode: screen;
+    padding: 10px 20px;
+} */
+/* this is for the fancy cut look thing
+you have to make the header link to this ok */

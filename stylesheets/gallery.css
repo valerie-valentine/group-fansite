@@ -2,28 +2,25 @@
     font-family: 'OmegaRuby';
     src: url('/fonts/OmegaRuby-PlEB.ttf') format('truetype');
     font-weight: normal;
-    size-adjust: 180%;
+    size-adjust: 300%;
 } */
 
 
 img {
-    width : 550px;
-    height: 550px;    
+    width : 500px;
+    height: 500px;    
 }
 
-div {
-    display : flex;
+/* div {
     justify-content: space-around;
     align-items: center;
-}
+}  */
 
 html {
     background-color: #ebebeb;
 }
 
-/* nav {
-    background-color: #0392cf;
-} */
+
 
 ul {
     list-style-type: none;
@@ -43,10 +40,7 @@ ul {
 } */
 
 .adiemon-titles {
-    text-align: center;
-    width: 20%;
-    opacity: calc(85%);
-    background-color: #ffb4cb;
+    font-size: 40px;
     font-family: 'OmegaRuby', sans-serif
 }
 
@@ -55,7 +49,7 @@ ul {
 } */
 
 #visited {
-    color: #ffffba;
+    color: #f37736;
     font-family: 'OmegaRuby';
 }
 
@@ -63,24 +57,31 @@ a {
     font-family: 'OmegaRuby';
 }
 
-.rectangles img {
+
+.circles img {
     clip-path: circle();
-    height: 300px;
-    width: 300px;
-    display :flex;
-    justify-content: space-around;
+    height: 500px;
+    width: 500px;
+}
+
+.grid-item {
+    display: grid;
+    justify-content: center;
 }
 
 
+
 .adiemon-titles {
-    font-family: 'OmegaRuby';
-    display: flex;
+    font-family: 'PokemonGb';
+    
+    
 }
 
 #htmlite-image {
     background-image: linear-gradient(90deg, #ffb3ba, #ffdfba, #ffffba, #baffc9, #bae1ff);
     border: groove 20px #ee4035;
     border-radius: 50%;
+
 }
 
 #pythonion-image {
