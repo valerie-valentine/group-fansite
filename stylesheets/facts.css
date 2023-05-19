@@ -71,7 +71,7 @@ ul {
 } */
 
 .Box {
-    border: 5px solid rgb(190, 150, 239);
+    /* border: 5px solid rgb(190, 150, 239); */
     background: rgb(255, 255, 255);
     padding: 10px;
     margin: 30px;
@@ -85,7 +85,7 @@ ul {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
  }
 
-.section-title {
+/* .section-title {
     font-family: "PokemonGb";
 }
 
@@ -98,4 +98,4 @@ ul {
 #history {
     grid-column: 1/4;
     grid-row: 2/5;
-}
+} */
